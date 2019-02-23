@@ -1,7 +1,7 @@
 import math
 
 while True:
-    print("\nChoose the math operation.\n\n0 = Addition\n1 = Subtration\n3 = Multiplication\n4 = Division\n5 = Modulo\n6 = Raising to a power\n7 = Square root\n8 = Sine\n9 = Cosine\n10 = Tangent\n")
+    print("\nChoose the math operation.\n\n0 = Addition\n1 = Subtraction\n3 = Multiplication\n4 = Division\n5 = Modulo\n6 = Raising to a power\n7 = Square root\n8 = Sine\n9 = Cosine\n10 = Tangent\n")
     oper = input("\nYour option from the menu:")
     
     # Addition
@@ -15,6 +15,8 @@ while True:
             continue
         else:
             break
+
+# Subtraction
             
     elif oper == "1":
         val1 = float(input("\nFirst value: "))
@@ -26,6 +28,8 @@ while True:
             continue
         else:
             break
+
+# Multiplication
             
     elif oper == "2":
         val1 = float(input("\nFirst value: "))
@@ -37,6 +41,8 @@ while True:
             continue
         else:
             break
+
+    # Division
 
     elif oper == "3":
         val1 = float(input("\nFirst value: "))
